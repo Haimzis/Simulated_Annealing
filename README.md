@@ -42,7 +42,7 @@ the final result will be a good approximation to the optimized solution.
 Problem Definition:  
 Initial State: Randomly state of N ordered cities (each city has (x, y) coordinates).  
 Operator: Swapping of 2 Elements in the state, under the probability P.  
-Let **Energy**=Eulerian Path Distance Sum of the given state.  
+Let **Energy**=Hamilton Path Distance Sum of the given state.  
 Goal - To find the shortest path. (minimum negative energy)  
 
 *Inputs are given in the project, in tsp_problems - also the params that I gave to the Algorithm.  
@@ -56,9 +56,9 @@ plot format :(scheduler | problem scale | iterations)
 ![](./plots/img_5.png)
 
 Outputs:  
-15 cities
+15 cities  
 ![](./plots/img_2.png)
-48 cities
+48 cities  
 ![](plots/img_6.png)
-15 cities
+15 cities  
 ![](./plots/img_4.png)
